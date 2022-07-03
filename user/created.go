@@ -1,11 +1,10 @@
 package user
 
 import (
+	"cmd/client/internal/pkg/event"
 	"context"
 	"log"
 	"time"
-
-	"github.com/inanzzz/client/internal/pkg/event"
 )
 
 const Created event.Name = "user.created"

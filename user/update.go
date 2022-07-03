@@ -1,8 +1,8 @@
 package user
 
 import (
+	"cmd/client/internal/pkg/event"
 	"context"
-	"interal/pkg/event"
 	"log"
 	"time"
 )

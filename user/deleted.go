@@ -5,7 +5,7 @@ import (
 	"log"
 	"time"
 
-	"go-dispatcher/internal/pkg/event"
+	"cmd/client/internal/pkg/event"
 )
 
 const Deleted event.Name = "user.deleted"
